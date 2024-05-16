@@ -1,7 +1,7 @@
 ---
-title: "Euler's Theorem via Necklaces"
-date: 2024-05-16
-permalink: /posts/2024/05/16/Eulers-Theorem-via-Necklaces/
+title: "Euler's Theorem via Necklaces I"
+date: 2024-05-15
+permalink: /posts/2024/05/16/Eulers-Theorem-via-Necklaces-I/
 tags:
   - Number Theory
   - Combinatorics
