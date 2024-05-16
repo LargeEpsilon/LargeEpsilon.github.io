@@ -5,7 +5,7 @@ permalink: /posts/2024/05/16/Eulers-Theorem-via-Necklaces-I/
 tags:
   - Number Theory
   - Combinatorics
-comments: true
+comments: false
 layout: single
 ---
 
