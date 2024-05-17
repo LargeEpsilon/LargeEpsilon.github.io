@@ -16,7 +16,7 @@ in which case I have the pleasure of acquainting you with both the theorem and t
 Fermat's Little Theorem (from now on FLT) can be seen as a special case of the more general 
 Euler's Theorem (plus an edge case). One might ask if the combinatorial proof of FLT can be lifted to a proof of Euler's Theorem. 
 
-In this post, I present in an elementary fashion the combinatorial roof of FLT and describe the relationship between the two theorems.
+In this post, I present in an elementary fashion the combinatorial proof of FLT and describe the relationship between the two theorems.
 This is in anticipation of a second post in which I will present the lifted version of the proof of Euler's Theorem using slightly more technical machinery.
 
 # Fermat's Little Theorem
