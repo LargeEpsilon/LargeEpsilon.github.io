@@ -10,7 +10,7 @@ comments: true
 layout: single
 ---
 
-This my proof of Euclid's Theorem. There are many like it, but this one is mine. 
+This is my proof of Euclid's Theorem. There are many like it, but this one is mine. 
 
 # Abstract
 I'm preparing a rather long post on a generalisation of the proof mechanism in Zagier's Paper on Newman's 
