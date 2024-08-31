@@ -43,4 +43,4 @@ $$
 $$
 
 Taking $$C = \lfloor\frac{\log N}{\log 2}\rfloor$$ it follows by a standard combinatorial argument that the number of tuples is bounded from above by 
-$$\binom{C + \Pi - 1}{\Pi} \leq (C + \Pi - 1)^\Pi = O(\log^\Pi N)$$. This is clearly dominated by large $$N$$.
+$$\binom{C + \Pi - 1}{\Pi-1} \leq (C + \Pi - 1)^{\Pi-1} = O(\log^\Pi N)$$. This is clearly dominated by large $$N$$.
