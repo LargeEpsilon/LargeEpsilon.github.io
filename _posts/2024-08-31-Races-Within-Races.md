@@ -9,7 +9,7 @@ layout: single
 ---
 
 # Abstract
-Somewhat recently a number of my friends participated in Sydney's City2Surf, a 14km run from the CBD to Bondi. These friends also regularly participate in a 'Park Runs' most Saturday mornings, 
+Somewhat recently a number of my friends participated in Sydney's City2Surf, a 14km run from the CBD to Bondi. These friends also regularly participate in 'Park Runs' most Saturday mornings, 
 5km runs held in parks throughout the city. Ben is one of these friends. Ben takes his running quite seriously. Amazingly, his City2Surf performance was so stellar that he actually set a new 5km record! 
 In fact, his total 14km pace almost rivalled his previous personal best 5km pace. This prompted the following question, if one runs a long race at a certain pace, is it necessarily the case that for any 
 given shorter race, the long race contains a complete short race within it at the same pace or better? Amongst all races, what is the slowest fastest short race contained in a long race? How much wood 
