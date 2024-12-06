@@ -1,6 +1,6 @@
 ---
 title: "An Invitation to Cooking Steak I: First Principles"
-date: 2024-05-15
+date: 2024-12-07
 permalink: /posts/2024/09/12/An-Invitation-to-Cooking-Steak/
 tags:
   - Cooking
