@@ -41,9 +41,9 @@ in each piece to be as short as possible. Many prime cuts (ribeye, fillet mignon
 slice the meat perpendicular to the grain (the direction of the fibers) before serving. The fibers are visible to the naked eye. 
 
 ### Flavour of the meat
-Flavour of the meat is tricky, there are many factors at play. First of all, the softness of the fibers seems to correlate negatively with the strength of the 'beef' flavour. 
+Guessing at the flavour of a particular piece of meat is tricky, there are many factors at play. First of all, the softness of the fibers seems to correlate negatively with the strength of the 'beef' flavour. 
 In my humble opinion, the beautifully tender filet mignon is nearly bland. I like the flavour of rump most. Otherwise, the diet of the cow is a huge factor (so is the age, 
-but you are unlikely to have fine grained control over it). Broadly speaking there is grass fed beef and grain fed beef. The former is much leaner and has a purple hughe. Nutty tones. 
+but you are unlikely to have fine grained control over it). Broadly speaking there is grass fed beef and grain fed beef. The former is much leaner and has a purple hue. Nutty tones. 
 Grain fed beef tends to have more intramuscular fat but a less nuanced taste profile. More on this next. Otherwise, the manner in which the meat is aged/hung will play a significant role in the taste profile. Butchery 
 appears to be less of a craft now than it once was, but a good butcher will still approach this process thoughtfully. Not really much to control here other than identifying a butcher 
 whose product you enjoy, try some older style butchers if possible. Dry aged beef for a number of reasons also tends to have a stronger beefy flavour, some nuttiness and a deep savoury 
