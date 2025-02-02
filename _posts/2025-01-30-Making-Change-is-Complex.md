@@ -1,6 +1,6 @@
 ---
 title: "Making Change is Complex"
-date: 2025-01-30
+date: 2024-01-30
 permalink: /posts/2025/01/30/Making-Change-is-Complex/
 tags:
   - Partitions
