@@ -10,9 +10,10 @@ comments: true
 layout: single
 ---
 
+This post is something of a PSA rather than original work. It's a rather standard result and I haven't offered anything 
+particularly novel, but I think it should be more widely known.
+
 # Introduction
-This post is something of a PSA and its introduction will be a little technical, but I will 
-present as much of the body as possible without assuming any particular background of the reader.
 Most students at some point learn that if a linear recurrence has a separable 
 characteristic polynomial, then its solution is a linear combination of exponentials of its roots. 
 It has not been my experience that this result is generalised in a standard undergraduate curriculum. 
@@ -21,8 +22,9 @@ In this post we will describe the solutions completely.
 
 # Prerequisites
 To get absolutely everything out of this post it will be best to have some grounding in algebra, linear and 
-abstract. The Chinese Remainder Theorem for PIDs in particular will play a significant role in justifying a 
-central claim, but some familiarity with partial fraction decomposition will be more than sufficient here. 
+abstract. The Chinese Remainder Theorem for PIDs in particular is operating behind the scenes of Corollary (5)
+which plays a major role in justifying the central claim. However some familiarity with partial fraction decomposition 
+will be more than sufficient here. Exercises are provided to justify this proposition rigorously if desired.
 
 # The Fibonacci Numbers
 I was very surprised to learn that the Fibonacci numbers have a closed form solution. Unfortunately, the result 
@@ -111,7 +113,7 @@ polynomial over the algebraic closure $$K$$ of $$F$$. Then there are constants $
 
 $$
 \begin{equation*}
-a_n = \sum_{s=1}^k q_s \lambda_s^n =  q_1 r_1^n + q_2r_2^{n} + ... + q_k r_k^n
+a_n = \sum_{s=1}^k q_s \lambda_s^n =  q_1 \lambda_1^n + q_2\lambda_2^{n} + ... + q_k \lambda_k^n
 \end{equation*}
 $$
 
@@ -195,14 +197,7 @@ $$
 
 is the generating function of $$a_n$$. Formally, the generating function is an algebraic object, not a function 
 to be evaluated subject to troublesome questions of convergence. We say that $$g(z)$$ belongs to 
-the ring of formal power series $$F[[z]]$$. This ring satisfies certain properties if $$F$$ is a field:
-
-- It's a PID,
-- Its units are the polynomials with non zero constant coefficient.
-
-The former is a somewhat technical condition we'll stow away for later, the latter says that $$1/g(z)$$ is also 
-an element of the ring if the constant term of $$g(z)$$ is non zero. What does $$g$$ have to offer us?
-
+the ring of formal power series $$F[[z]]$$. What does $$g$$ have to offer us? 
 Let's take $$g(z)$$ to be the generating function of the Fibonacci numbers and suspend questions of motivation 
 for a moment.
 
@@ -214,9 +209,9 @@ $$
 \end{align*}
 $$
 
-verfying the first and last lines is left as an exercise. 
-Earlier we said that every polynomial with non zero constant coefficient is a unit. Then 
-$$(1-\varphi z)$$ and $$(1 - (-\varphi^{-1})z)$$ are units. In fact;
+verfying the first and last lines is left as an exercise. A convenient property of $$F[[z]]$$ is that every 
+element whose constant term is non zero has a multiplicative inverse. In particular 
+$$(1-\varphi z)$$ and $$(1 - (-\varphi^{-1})z)$$ both have inverses. In fact;
 
 $$
 \begin{equation*}
@@ -232,7 +227,8 @@ $$
 \end{equation*}
 $$
 
-These are of course geometric series, but this is an algebraic statement not an analytic one. You should verify algebraically that 
+These are of course geometric series, but this is an algebraic statement not an analytic one. 
+You should verify algebraically that 
 
 $$
 \begin{equation*}
@@ -464,10 +460,11 @@ $$
 
 
 # Exercises
-This set of exercises is aimed at establishing Corollary 5. All polynomials are taken over $$F[z]$$, and we will say 
-that polynomials $$p,q$$ are coprime if they do not share roots over the algebraic closure of $$F$$. Feel free to interpret $$F$$ as either 
-$$\mathbb{Q}$$, $$\mathbb{R}$$ or $$\mathbb{C}$$ if you aren't familiar with fields. The algebraic closure of all of these 
-is $$\mathbb{C}$$.
+
+Exercises 1-8 are aimed at establishing Corollary 5. All polynomials are taken over $$F[z]$$, and we will say 
+that polynomials $$p,q$$ are coprime if they do not share roots over the algebraic closure of $$F$$. Feel free to interpret 
+$$F$$ as either $$\mathbb{Q}$$, $$\mathbb{R}$$ or $$\mathbb{C}$$ if you aren't familiar with fields. The algebraic closure of 
+all of these is $$\mathbb{C}$$.
 
 1. Suppose $$p, q$$ share a root in the algebric closure of 
 $$F$$. Show that any linear combination of $$p, q$$ over $$F$$ also shares this root.
@@ -497,3 +494,8 @@ for the other, invoke 3 then multiply by $$x$$.
 none of the $$p_i$$ share roots.
 
 8. Prove corollary (5). You will need the fact that $$\deg(r) < k$$.
+
+9. Prove the provided formula for the determinant of a Vandermonde matrix. Hint, take the $$\lambda_i$$ to be variables, and cast the determinant as a polynomial in these variables. Use the fact that if any pair of the 
+$$\lambda_i, \lambda_j$$ are equal the determinant is $$0$$ to show that the determinant is divisible by $$\lambda_i - \lambda_j$$. Show that this implies that the determinant is divisible by their product. Because every element of the determinant has 
+the same degree, this implies that the formula is correct up to a constant. Compute any pair of terms in both the determinant 
+and the product and compare their coefficients to see that this constant is $$1$$.
