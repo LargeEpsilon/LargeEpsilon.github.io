@@ -24,12 +24,12 @@ an increasing supply of primes to generate unique combinations. If there are onl
 of prime factorisations less than $$N$$ will grow asymptotically slower than $$N$$ itself, the quantity of 
 numbers they represent.
 
-Suppose there are exactly $$\Pi$$ primes. Then, for every integer $$n \leq N$$, there is a unique prime factorisation 
-of the form $$p_1^{a_1} \cdots p_\Pi^{a_\Pi}$$. Taking logarithms, 
+Suppose there are exactly $$m$$ primes. Then, for every integer $$n \leq N$$, there is a unique prime factorisation 
+of the form $$p_1^{a_1} \cdots p_m^{a_m}$$. Taking logarithms, 
 
 $$
 \begin{equation*}
-    a_1 \log p_1 + ... + a_\Pi \log p_\Pi = \log n \leq \log N
+    a_1 \log p_1 + ... + a_m \log p_m = \log n \leq \log N
 \end{equation*}
 $$
 
@@ -38,9 +38,9 @@ this bound will grant our conclusion. In particular;
 
 $$
 \begin{equation*}
-    a_1 + ... + a_\Pi \leq \frac{\log N}{\log 2}
+    a_1 + ... + a_m \leq \frac{\log N}{\log 2}
 \end{equation*}
 $$
 
 Taking $$C = \lfloor\frac{\log N}{\log 2}\rfloor$$ it follows by a standard combinatorial argument that the number of tuples is bounded from above by 
-$$\binom{C + \Pi - 1}{\Pi-1} \leq (C + \Pi - 1)^{\Pi-1} = O(\log^\Pi N)$$. This is clearly dominated by large $$N$$.
+$$\binom{C + m - 1}{m-1} \leq (C + m - 1)^{m-1} = O(\log^m N)$$. This is clearly dominated by large $$N$$.
